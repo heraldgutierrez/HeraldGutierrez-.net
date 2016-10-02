@@ -6,15 +6,9 @@ using System.Web.Mvc;
 
 namespace HeraldGutierrez.Controllers
 {
-    public class DefaultController : Controller
+    public class DailyProgrammer : Controller
     {
         public ActionResult Index()
-        {
-            //return View();
-            return View("Resume");
-        }
-
-        public ActionResult Resume()
         {
             return View();
         }

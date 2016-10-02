@@ -195,7 +195,9 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\DailyProgrammer.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -313,6 +315,11 @@
     <Content Include="Assets\Stylesheets\Source\font-awesome\_variables.scss" />
     <Content Include="Assets\Stylesheets\Source\styles.scss" />
     <Content Include="Assets\Stylesheets\Source\variables.scss" />
+    <Content Include="Assets\Stylesheets\Source\fonts.scss" />
+    <Content Include="Assets\Fonts\Austie-Bost-Matamata.eot" />
+    <Content Include="Assets\Fonts\Austie-Bost-Matamata.ttf" />
+    <Content Include="Assets\Fonts\Reditum.eot" />
+    <Content Include="Assets\Fonts\Reditum.ttf" />
     <None Include="Properties\PublishProfiles\Publish.pubxml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -326,6 +333,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
+    <Content Include="Views\Default\Resume.cshtml" />
+    <Content Include="Views\DailyProgrammer\Index.cshtml" />
+    <Content Include="Views\Error\404.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

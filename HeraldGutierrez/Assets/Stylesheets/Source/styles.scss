@@ -2,22 +2,25 @@
 @import "bootstrap.scss";
 @import "font-awesome.scss";
 @import "variables.scss"; 
+@import "fonts.scss"; 
 
 html, body
 {
-    background-color: #f3f0df;
+    background: radial-gradient(circle, #fff 25%, #ddd 75%);
 	height: 100%;
-    font-weight: 600;
+    /*font-weight: 600;*/
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 body
 {
-	background-color: transparent;
+    /*background: #fff linear-gradient(to top, red, #ddd);*/
+	/*background-color: transparent;*/
 }
 
 h1, h2, h3, h4, h5, h6
 {
-	color: $blue;
+	color: $primaryFont;
 	margin: 0;
 }
 
@@ -25,8 +28,8 @@ h1
 {
 	font-size: 36px;
 	font-weight: bold;
-	margin-top: 45px;
-	margin-bottom: 15px;
+	margin-top: 10px;
+    text-transform: uppercase;
 
 	span
 	{
@@ -82,20 +85,60 @@ p
 	}
 }
 
-section
+.section
 {
 	margin-bottom: 30px;
 
-	&:last-child
-	{
-		margin-bottom: 0;
-	}
+    span 
+    {
+        display: block;
+        font-size: 14px; 
+    }
+
+    .header 
+    {
+        overflow: hidden;
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 16px;
+        margin-bottom: 15px;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        border-bottom: 1px dotted #CCC; 
+    }
+
+    .subsection 
+    {
+        .subheader 
+        {
+            font-size: 16px;
+            font-weight: bold;
+            font-style: italic;
+            margin-top: 15px;
+            margin-bottom: -3px; 
+        }
+
+        .location 
+        {
+            font-weight: normal;
+            margin-top: 4px;
+            margin-bottom: 3px; 
+        }
+
+        ul 
+        {
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 5px;
+            margin-bottom: 3px;
+            padding-left: 25px; 
+        }
+    }
 }
 
 .navbar
 {
-    /*background: #0076d2 url(../Images/navbar-background.png) repeat-x 0 0;*/
-    background: #fff linear-gradient(to top, #fff, #e9e9e9 5px, #fff 45px);
+    background: #fff linear-gradient(to top, #a0cfe6, #84bdda 5px, #3890bd 45px);
 	border-bottom: 1px solid #999;
     box-shadow: rgba(0, 0, 0, 0.5) 0 3px 10px;
 	height: $headerHeight;
@@ -116,7 +159,6 @@ section
         {
             > a
             {
-                /*color: #ddd;*/
                 color: $ammGreen;
                 padding: 10px 30px;
                 transition: color linear 0.25s;
@@ -125,7 +167,7 @@ section
                 &:hover,
                 &:focus
                 {
-                    color: $blue;
+                    color: $primaryFont;
 					background-color: transparent;
                 }
             }
@@ -133,7 +175,7 @@ section
 
 		> .active
 		{
-			border-bottom: 5px solid $blue;
+			border-bottom: 5px solid $primaryFont;
 
 			> a
 			{
@@ -157,8 +199,6 @@ section
 
 				a
 				{
-					/*background-color: $red;
-					border-bottom: 5px solid $redDark;*/
 					color: #ddd;
 				}
 			}
@@ -166,123 +206,19 @@ section
 	}
 }
 
-.navbar-brand
-{
-	height: auto;
-}
-
-.hsp-logo
-{
-    display: inline-block;
-    margin: 22px 0 0 15px;
-}
-
-.navbar-toggle
-{
-	margin-top: 15px;
-}
-
 .navbar-nav
 {
 	margin-top: 20px;
-
-    &.hr 
-    {
-        margin-top: -30px;
-    }
-
-	> li
-	{
-		padding-top: 35px;
-        /*padding-top: $headerHeight - 66px;*/
-
-		&.enrolment
-		{
-			> a
-			{
-				color: #ddd;
-				background: linear-gradient(to bottom, #004e84, #002f54);
-				border-top-left-radius: 4px;
-				border-top-right-radius: 4px;
-                box-shadow: inset 0 6px 4px -4px rgba(0, 0, 0, 0.5);
-				font-weight: bold;
-				margin: 0 15px;
-
-				&:hover,
-                &:focus
-				{
-					/*background-color: $redLight;*/
-					color: #fff;
-				}
-			}
-		}
-	}
 }
 
 .content
 {
-    box-shadow: rgba(0, 0, 0, 0.5) 0 3px 10px;
-    background-color: rgba(255, 255, 255, 0.6);
-    /*background-color: #f7f7f7;*/
-    /*margin-bottom: $footerHeight;*/
-    padding-top: $headerHeight;
-    /*margin-top: $headerHeight;*/
-	/*padding-bottom: 45px;*/
-    /*padding-bottom: $footerHeight;*/
+    padding-top: $headerHeight + 30px;
     min-height: 100%;
-    margin-bottom: -$footerHeight;
-    padding-bottom: $footerHeight + 45px;
 
 	a
 	{
 		text-decoration: underline;
-	}
-}
-
-.banner
-{
-	/*margin-bottom: 45px;*/
-	/*position: relative;*/
-
-	/*img
-	{
-		height: auto;
-		max-height: 400px;
-		max-width: 100%;
-		margin: 0 auto;
-		width: auto;
-	}*/
-
-	h1
-	{
-		color: #fff;
-		font-size: 48px;
-        line-height: 60px;
-		margin: 100px 0 0 0;
-		text-shadow: #444 0 0 5px;
-
-		/*position: absolute;
-		bottom: 60px;
-		left: 15px;*/
-
-		span
-		{
-			color: #fff;
-			display: block;
-			font-size: 20px;
-            line-height: 40px;
-            margin-top: 15px;
-            text-align: justify;
-            /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-		}
-	}
-}
-
-ol
-{
-	li
-	{
-		margin-bottom: 10px;
 	}
 }
 
@@ -301,143 +237,47 @@ ol
 	text-align: right;
 }
 
-.btn
-{
-	color: #eee;
-	/*background-color: $blue;*/
-	background: $blue linear-gradient(to bottom, #0099ff, $blueLighter 3px, $blue);
-	font-weight: bold;
-	padding: 15px 45px;
-	transition: background-color ease-in 150ms;
-
-	i
-	{
-		font-size: 35px;
-	}
-
-	&.btn-primary
-	{
-
-	}
-
-	&:hover,
-	&:active,
-	&:focus
-	{
-		/*background-color: $blueLighter;*/
-	    background: $blueLighter linear-gradient(to bottom, #002f4c, $blue 3px, $blueLighter);
-		border-color: $blue;
-		color: #eee;
-	}
-
-	&:disabled
-	{
-		background-color: rgba(0, 0, 0, 0.05);
-		border-color: rgba(0, 0, 0, 0.1);
-		color: #222;
-	}
-}
-
-.btn-delete
-{
-	background-color: transparent;
-	border: none;
-	color: $greyDark;
-	margin: 0;
-	padding: 0;
-	transition: color ease-in 150ms;
-
-	&:hover,
-	&:active,
-	&:focus
-	{
-		background-color: transparent;
-		color: $red;
-	}
-}
-
-.btn-lg
-{
-	margin-bottom: 15px;
-	width: 100%;
-
-	i
-	{
-		font-size: 14px;
-		margin-right: 15px;
-	}
-}
-
-.btn-download
-{
-	margin: 30px 0 15px 0;
-	text-decoration: none !important;
-}
-
-.btn-default
-{
-    background-image: none;
-
-    &:hover,
-    &:active,
-    &:focus
-    {
-        background-image: none;
+.error {
+    h1 {
+        color: black;
     }
 }
 
-.loader
-{
-	display: inline-block;
-	margin-top: 15px;
-
-	i
-	{
-		font-size: 24px;
-	}
-}
-
-/* Small devices (phones, 480px and down) */
-@media (max-width: $screen-xs-min)
-{
-	.banner
-	{
-		h1
-		{
-			bottom: 15px;
-			font-size: 16px;
-			padding-right: 15px;
-
-			span
-			{
-				font-size: 16px;
-			}
-		}
-	}
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm-min)
-{
-	/*html
-	{
-		background-image: url('../Images/background.jpg');
-		background-size: cover;
-		background-attachment: fixed;
-	}*/
-}
-
 /* Small devices (tablets, 768px and down) */
-@media (max-width: $screen-md-min)
+@media (max-width: $screen-sm-min)
 {
-	.wrap
-	{
-		margin-bottom: -506px;
-	}
+    .navbar-default
+    {
+	    .navbar-nav
+	    {
+            margin-top: 0px;
 
+            > li
+            {
+                > a
+                {
+                    font-size: 12pt;
+                    padding: 2px;
+                }
+            }
+	    }
+    }
+
+	.navbar
+	{
+		border-top: none;
+		height: $headerHeightMobile;
+	}
+    
 	.content
 	{
-		padding-top: $headerHeightSmall;
+		padding-top: $headerHeightMobile + 30px;
+	}
+
+
+	/*.wrap
+	{
+		margin-bottom: -506px;
 	}
 
 	.push,
@@ -451,11 +291,6 @@ ol
 		padding-bottom: 0;
 	}
 
-	.navbar
-	{
-		border-top: none;
-		height: $headerHeightSmall;
-	}
 
 	.navbar-brand
 	{
@@ -502,7 +337,7 @@ ol
 
 				a
 				{
-					border-left: 10px solid $blue;
+					border-left: 10px solid $primaryFont;
 					padding-left: 20px;
 				}
 
@@ -541,5 +376,5 @@ ol
 		-ms-transition: height 0.01s;
 		-o-transition: height 0.01s;
 		transition: height 0.01s;
-	}
+	}*/
 }

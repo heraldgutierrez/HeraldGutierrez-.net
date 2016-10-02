@@ -77,6 +77,5 @@ D:\GitHub\HeraldGutierrez\HeraldGutierrez\bin\Microsoft.Owin.Security.OAuth.xml
 D:\GitHub\HeraldGutierrez\HeraldGutierrez\bin\Microsoft.Owin.Security.Google.xml
 D:\GitHub\HeraldGutierrez\HeraldGutierrez\bin\Microsoft.Owin.Security.Twitter.xml
 D:\GitHub\HeraldGutierrez\HeraldGutierrez\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\GitHub\HeraldGutierrez\HeraldGutierrez\obj\Release\HeraldGutierrez.csprojResolveAssemblyReference.cache
 D:\GitHub\HeraldGutierrez\HeraldGutierrez\obj\Release\HeraldGutierrez.dll
 D:\GitHub\HeraldGutierrez\HeraldGutierrez\obj\Release\HeraldGutierrez.pdb
