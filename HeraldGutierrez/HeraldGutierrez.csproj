@@ -217,16 +217,8 @@
     <Content Include="Assets\Scripts\Libs\ui-select.js" />
     <Content Include="Assets\Stylesheets\Source\bootstrap\bootstrap.css" />
     <Content Include="Assets\Stylesheets\styles.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\ai.0.15.0-build58334.js" />
-    <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -306,7 +298,6 @@
     <Content Include="Assets\Stylesheets\Source\bootstrap\_utilities.scss" />
     <Content Include="Assets\Stylesheets\Source\bootstrap\_variables.scss" />
     <Content Include="Assets\Stylesheets\Source\bootstrap\_wells.scss" />
-    <Content Include="Assets\Stylesheets\Source\checkbox.scss" />
     <Content Include="Assets\Stylesheets\Source\font-awesome.scss" />
     <Content Include="Assets\Stylesheets\Source\font-awesome\_bordered-pulled.scss" />
     <Content Include="Assets\Stylesheets\Source\font-awesome\_core.scss" />
@@ -320,23 +311,9 @@
     <Content Include="Assets\Stylesheets\Source\font-awesome\_spinning.scss" />
     <Content Include="Assets\Stylesheets\Source\font-awesome\_stacked.scss" />
     <Content Include="Assets\Stylesheets\Source\font-awesome\_variables.scss" />
-    <Content Include="Assets\Stylesheets\Source\forms.scss" />
-    <Content Include="Assets\Stylesheets\Source\radio.scss" />
-    <Content Include="Assets\Stylesheets\Source\select.scss" />
     <Content Include="Assets\Stylesheets\Source\styles.scss" />
     <Content Include="Assets\Stylesheets\Source\variables.scss" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
+    <None Include="Properties\PublishProfiles\Publish.pubxml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -358,12 +335,8 @@
     <Folder Include="Assets\Scripts\Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

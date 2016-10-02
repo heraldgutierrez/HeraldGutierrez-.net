@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\GitHub\Published Projects\HeraldGutierez</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Fonts/fontawesome-webfont.eot">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Fonts/fontawesome-webfont.svg">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Fonts/fontawesome-webfont.ttf">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Fonts/fontawesome-webfont.woff">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Fonts/FontAwesome.otf">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/angular-sanitize.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/angular.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/IE8/html5shiv.min.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/IE8/json3.min.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/IE8/respond.min.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/jquery.min.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/ui-mask.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Scripts/Libs/ui-select.js">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/bootstrap.css">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/bootstrap.css.map">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/bootstrap.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_alerts.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_background-variant.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_border-radius.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_buttons.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_center-block.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_clearfix.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_forms.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_gradients.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_grid-framework.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_grid.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_hide-text.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_image.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_labels.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_list-group.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_nav-divider.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_nav-vertical-align.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_opacity.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_pagination.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_panels.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_progress-bar.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_reset-filter.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_resize.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_responsive-visibility.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_size.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_tab-focus.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_table-row.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_text-emphasis.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_text-overflow.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/mixins/_vendor-prefixes.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_alerts.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_badges.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_breadcrumbs.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_button-groups.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_buttons.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_carousel.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_close.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_code.scss">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_component-animations.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_dropdowns.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_forms.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_glyphicons.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_grid.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_input-groups.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_jumbotron.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_labels.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_list-group.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_media.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_mixins.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_modals.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_navbar.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_navs.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_normalize.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_pager.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_pagination.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_panels.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_popovers.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_print.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_progress-bars.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_responsive-embed.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_responsive-utilities.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_scaffolding.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_tables.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_theme.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_thumbnails.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_tooltip.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_type.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_utilities.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_variables.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/bootstrap/_wells.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_bordered-pulled.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_core.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_fixed-width.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_icons.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_larger.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_list.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_mixins.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_path.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_rotated-flipped.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_spinning.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_stacked.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/font-awesome/_variables.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/styles.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/Source/variables.scss">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Assets/Stylesheets/styles.css">
+      <publishTime>10/02/2016 16:26:53</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/02/2016 16:26:02</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>10/02/2016 16:25:54</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/02/2016 16:26:02</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/02/2016 16:26:02</publishTime>
+    </File>
+    <File Include="bin/HeraldGutierrez.dll">
+      <publishTime>10/02/2016 16:42:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>10/02/2016 16:26:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>10/02/2016 16:26:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>10/02/2016 16:26:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>10/02/2016 16:26:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>10/02/2016 16:26:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>10/02/2016 16:26:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/02/2016 16:26:04</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/02/2016 16:26:05</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/02/2016 16:26:01</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/02/2016 16:26:02</publishTime>
+    </File>
+    <File Include="Views/Default/Index.cshtml">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/02/2016 16:25:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/02/2016 16:40:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
